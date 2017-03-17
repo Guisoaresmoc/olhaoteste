@@ -1,0 +1,1 @@
+$(document).ready(function(){"use strict";var $height_widow=$(window).height();if($height_widow>800){$('#header').css('height',$height_widow+'px');}});$(window).load(function(){"use strict";$('.parallax').each(function(){$(this).parallax("30%",0.1);});new WOW().init();});
